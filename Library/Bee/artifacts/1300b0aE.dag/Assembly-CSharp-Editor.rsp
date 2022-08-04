@@ -124,6 +124,8 @@
 -define:PUN_2_0_OR_NEWER
 -define:PUN_2_OR_NEWER
 -define:PUN_2_19_OR_NEWER
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
@@ -382,6 +384,12 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.API.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.PUN.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.PUN.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Utilities.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
@@ -430,6 +438,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Photon/PhotonChat/Demos/DemoChat/Editor/ChatEditor.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
